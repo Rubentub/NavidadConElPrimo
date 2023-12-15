@@ -1,0 +1,408 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/027/549/272/small/festive-christmas-mockup-banner-empty-white-table-top-with-warm-living-room-decor-and-snow-holiday-background-photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-santa {
+    width: 380px;
+    height: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 80%;
+}
+.container-santa *:before,
+.container-santa *:after {
+    position: absolute;
+    content: "";
+}
+.santa {
+    height: 220px;
+    width: 200px;
+    background-color: #ec1e17;
+    border-radius: 80px;
+    position: absolute;
+    left: 115px;
+    top: 200px;
+}
+.santa:before,
+.santa:after {
+    width: 40px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #fff2c8;
+}
+.santa:before {
+    height: 130px;
+}
+.santa:after {
+    height: 40px;
+    bottom: -15px;
+}
+.mano-l{
+    background-color: #ec1e17;
+    height: 90px;
+    width: 105px;
+    position: absolute;
+    right: -30px;
+    top: 20px;
+    border-radius: 0 80px 0 0;
+}
+.mano-l:before {
+    margin: auto;
+    width: 35px;
+    height: 15px;
+    background-color: #ffffff;
+    top: 85px;
+    left: 71px;
+}
+.mano-l:after {
+    height: 15px;
+    width: 30px;
+    background-color: #fad2af;
+    left: 74px;
+    top: 101px;
+    border-radius: 0 0 30px 30px;
+}
+.mano-r {
+    height: 150px;
+    width: 180px;
+    border: 30px solid transparent;
+    border-bottom: 40px solid #ec1e17;
+    position: absolute;
+    left: -100px;
+    bottom: 150px;
+    border-radius: 50%;
+    animation: wave 2s infinite;
+    transform-origin: right;
+}
+@keyframes wave {
+    50% {
+        transform: rotate(15deg);
+    }
+}
+.mano-r:before{
+    width: 35px;
+    height: 15px;
+    background-color: #ffffff;
+    transform: rotate(-50deg);
+    top: 68px;
+    left: -22px;
+}
+.mano-r:after {
+    width: 30px;
+    height: 15px;
+    background-color: #fad2af;
+    transform: rotate(-50deg);
+    left: -31px;
+    top: 58px;
+    border-radius: 15px 15px 0 0;
+}
+.cara{
+    position: absolute;
+    margin: auto;
+    height: 180px;
+    width: 180px;
+    background-color: #fad2af;
+    border: 25px solid #f2e6da;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    bottom: 140px;
+}
+.barba {
+    position: absolute;
+    height: 90px;
+    width: 180px;
+    background-color: #ffffff;
+    border-radius: 0 0 90px 90px;
+    right: -25px;
+    bottom: -25px;
+}
+.barba:before{
+    width: 60px;
+    height: 25px;
+    background-color: #f2e6da;
+    border-radius: 20px 0;
+    left: 34px;
+}
+.barba:after{
+    height: 25px;
+    width: 60px;
+    background-color: #f2e6da;
+    border-radius: 0 20px;
+    right: 34px;
+}
+.ojos {
+    height: 12px;
+    width: 12px;
+    background-color: #35ec1c;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    box-shadow:  38px 0 #35ec1c, 19px 20px #d30b0e;
+}
+.ojos:before {
+    height: 12px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 10px 0;
+    left: -10px;
+    bottom: 20px;
+}
+.ojos:after {
+    height: 12px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 0 10px;
+    left: 32px;
+    bottom: 20px;
+}
+.sombrero {
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    background-color: #ec1e17;
+    top: -99px;
+    left: 85px;
+    border-radius: 0 0 60px 60px;
+}
+.sombrero:before{
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    left: 100px;
+    top: -15px;
+    border-radius: 50%;
+}
+.cinturon {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background-color: #000000;
+    top: 100px;
+}
+.cinturon:before{
+    height: 30px;
+    width: 40px;
+    border: 7px solid #ffdc2e;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.cinturon:after{
+    height: 5px;
+    width: 15px;
+    background-color: #ffdc2e;
+    left: 100px;
+    top: 12px;
+}
+.zapato{
+    height: 20px;
+    width: 20px;
+    background-color: #000000;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+    border-radius: 20px 0 0 0;
+}
+.zapato:before {
+    height: 20px;
+    width: 20px;
+    background-color: #000000;
+    top: 0;
+    left: 60px;
+    border-radius: 0 20px 0 0;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue;
+    overflow: hidden;
+    background-size: 200% 200%;
+}
+
+.container{
+    width: 20rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 55%;
+}
+
+.star{
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: goldenrod;
+    clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+    position: absolute;
+    left: 52%;
+    top: 0;
+    transform: translate(-50%,-50%);
+    z-index: 12;
+}
+
+.star::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: yellow;
+    clip-path: polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+}
+
+.tree{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tree > div{
+    height: 3rem;
+    background-color: green;
+    clip-path: polygon(0 40%,100% 0,100% 60%,0% 100%);
+    position: relative;
+    z-index: 11;
+    margin-top: -1.6rem ;
+}
+
+.tree > div:nth-of-type(even){
+    background-color: darkgreen;
+    clip-path: polygon(0 0%,100% 40%,100% 100%,0 60%);
+    margin-top: -1.6rem;
+    transform: rotate(2deg);
+    position: relative;
+    z-index: 1;
+    margin-left: 1rem;
+}
+
+.tree > div:nth-of-type(1){
+    width: 4rem;
+    height: 5rem;
+    clip-path: polygon(60% 0,100% 50%,100% 50%,0 100%,0 60%);
+}
+
+.tree > div:nth-of-type(2){
+    width: 5rem;
+}
+
+.tree > div:nth-of-type(3){
+    width: 6rem;
+}
+
+.tree > div:nth-of-type(4){
+    width: 7rem;
+}
+
+.tree > div:nth-of-type(5){
+    width: 8rem;
+}
+
+.tree > div:nth-of-type(6){
+    width: 9rem;
+}
+
+.tree > div:nth-of-type(7){
+    width: 10rem;
+}
+
+.tree > div:nth-of-type(8){
+    width: 11rem;
+}
+
+.tree > div:nth-of-type(9){
+    width: 12rem;
+}
+
+.tree > div:nth-of-type(10){
+    width: 13rem;
+}
+
+.tree > div:nth-of-type(11){
+    width: 14rem;
+}
+
+.tree > div:nth-of-type(12){
+    width: 15rem;
+}
+
+.tree > div:nth-of-type(13){
+    width: 16rem;
+}
+
+.tree > div:nth-of-type(14){
+    width: 17rem;
+}
+
+.tree > div:nth-of-type(15){
+    width: 14rem;
+    height: 2rem;
+    margin-left: 4rem;
+    clip-path: polygon(100% 3%,100% 0,100% 100%,0% 100%);
+}
+
+.alfombra1{
+    width: 20rem;
+    height: 4rem;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 52%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: -3;
+
+}
+
+.alfombra2{
+    width: 15rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 52%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    z-index: -2;
+}
+
+.base{
+    width: 5rem;
+    height: 3.5rem;
+    background-color: chocolate;
+    clip-path: polygon(0 0, 100% 0,90% 100%,10% 100%);
+    position: relative;
+    left: 52%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.suelo{
+    background-color: brown;
+}
