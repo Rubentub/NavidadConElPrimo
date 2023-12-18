@@ -406,3 +406,46 @@ body1{
 .suelo{
     background-color: brown;
 }
+
+.Texto{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+h2{
+    margin-bottom: 70%;
+    right: 40%;
+    position: relative;
+    font-size: 3.5em;
+    color: green;
+    text-transform: uppercase;
+    width: 100%;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: red;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: blue;
+        text-shadow: 0 0 10px yellow,
+        0 0 20px yellow,
+        0 0 40px yellow,
+        0 0 80px yellow,
+        0 0 160px yellow,
+
+    }
+}
